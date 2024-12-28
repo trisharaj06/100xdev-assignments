@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  font-size: 15px;
+  width: 75px;
+  margin: 8px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+#red{
+  background-color: red;
+}
+#black{
+  background-color: black;
+}
+#blue{
+  background-color: blue;
+}
+#violet{
+  background-color: violet;
+}
+#pink{
+  background-color: pink;
+}
+#Yellow{
+  background-color: yellow;
+}
+#green{
+  background-color: green;
+}
+#more{
+  background-color: rgb(77, 94, 108);
+}
+#picker{
+  display: flex;
+  justify-content: center;
+  /* border: none; */
+  border-radius: 20px;
+  font-size: 10px;
+}
