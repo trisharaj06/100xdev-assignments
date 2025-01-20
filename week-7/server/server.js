@@ -14,14 +14,29 @@ const port = process.env.PORT;
 // Define mongoose schemas
 const userSchema = new mongoose.Schema({
   // userSchema here
+    userName: {
+        type: String,
+        unique: true
+    },
+    password: String
 });
 
 const adminSchema = new mongoose.Schema({
 // adminSchema here
+userName: {
+    type: String,
+    unique: true
+},
+password: String
 });
 
 const courseSchema = new mongoose.Schema({
 // courseSchema here
+    title: String,
+    description: String,
+    price: Number,
+    imageLink: String,
+    published: Boolean
 });
 
 // Define mongoose models
